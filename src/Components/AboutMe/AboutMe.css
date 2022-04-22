@@ -1,0 +1,36 @@
+.opacity_container {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 1280px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 1.5em;
+    line-height: 2;
+    padding-top: 9em;
+}
+
+.about_me_parallax {
+    background-image: url('./../../Images/francine_medium.jpg');
+    height: 1280px;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_container {
+    width: 80vw;
+    text-align: center;
+    padding: 3em;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text_container p {
+    text-align: center;
+    
+    
+}
