@@ -9,7 +9,7 @@
     
 }
 
-.cards_title p{
+.cards_title p {
 font-family: "Cabin Condensed", sans-serif;
   font-size: 1.5em;
   line-height: 3;
@@ -20,7 +20,7 @@ font-family: "Cabin Condensed", sans-serif;
     display: flex;
     flex-wrap: wrap;
     /* padding: 1em; */
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -72,3 +72,7 @@ hr {
     visibility: visible;
     opacity: 0.7;
   }
+
+  /* Media Queries */
+
+ 

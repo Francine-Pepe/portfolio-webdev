@@ -10,8 +10,10 @@ import healthyLife from "./../../Images/Healthy Life-logos_transparent.png";
 import easyPeasy from "./../../Images/easy_peasy-logo_transparent.png";
 import todolist from "./../../Images/checklist.png";
 import "./Projects.css";
+import ProjectTitle from "./ProjectTitle";
 
-export default function ProjectsCards() {
+export default function ProjectsCards(props) {
+
   const projects = [
     {
       id: "4",
@@ -66,12 +68,9 @@ export default function ProjectsCards() {
 
   return (
     <>
-        
-      <div className="cards_container">
-          <div className="cards_title">
-            <h1>PROJECTS</h1>
-          </div>
-      
+      <div className="cards_container" id="projects">  
+        <ProjectTitle title="PROJECTS" /> 
+        <h1> {props.title} </h1>
         {/* <div className="opacity_projects"> */}
         {projects.map((projects, id, item) => (
           <Card
@@ -82,19 +81,31 @@ export default function ProjectsCards() {
               flexWrap: "wrap",
               justifyContent: "center",
               alignItems: "center",
-              
               margin: "3em",
               borderRadius: '4em',
               padding: "2em",
               border: "none",
             }}
           >
-            <CardActionArea>
+            <CardActionArea
+            sx={{
+              "& .MuiTouchRipple-root": {
+                fontFamily: 'Roboto Slab',
+                borderRadius: '4em 4em 0 0',
+                backgroundColor: 'transparent'
+                },
+
+                "& .MuiCardActionArea-focusHighlight": {
+                  borderRadius: '4em 4em 0 0',
+                  
+                  }
+            }}
+            >
               <CardMedia
                 component="img"
                 height="160"
                 image={projects.image}
-                alt="green iguana"
+                alt="projects"
                 textAlign="center"
               />
               <CardContent>
@@ -111,7 +122,8 @@ export default function ProjectsCards() {
                 fontSize="0.9rem"
                 sx={{
                   fontFamily: "Roboto Slab",
-                  color: '#000'
+                  color: '#000',
+                  
                 }}
                 >
                   {projects.description}

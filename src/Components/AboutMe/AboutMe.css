@@ -1,8 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    
-}
+  }
 
 .opacity_container {
   background-color: rgba(255, 255, 255, 0.5);
@@ -13,7 +12,7 @@ body {
   align-items: center;
   font-family: "Cabin Condensed", sans-serif;
   font-size: 1.5em;
-  line-height: 3;
+  line-height: 2.5;
   padding-top: 4em;
 }
 

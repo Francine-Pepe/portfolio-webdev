@@ -70,7 +70,7 @@ body {
 
 .cards_title,
 .cards_text {
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -80,7 +80,7 @@ body {
 }
 
 .line {
-    width: 80%;
+    width: 60%;
     height: 1px;
     background-color: #44CFCB;
     border: none;
@@ -127,7 +127,7 @@ body {
 }
 
 .project_hr {
-    width:20em;
+    width:15em;
     height: 0.1em;
     color: #44CFCB;
     background-color: #44CFCB;

@@ -16,14 +16,14 @@ body {
     
 }
 .contact_header {
-    background-image: url("./../../Images/contact_medium.jpg");
+    /* background-image: url("./../../Images/contact_medium.jpg"); */
     height: fit-content;
     width: 100vw;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-color: #ECECEC;
   }
     
 
@@ -131,7 +131,7 @@ body {
     }
 
     .contact_header {
-        background-image: url("./../../Images/contact_small.jpg");
+        /* background-image: url("./../../Images/contact_small.jpg"); */
         background-position: center;
         
       }

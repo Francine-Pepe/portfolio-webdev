@@ -16,6 +16,9 @@
     font-family: inherit;
 }
 
+.navbar a:hover {
+    color: #E42770;
+}
 .logo {
     left: 0 !important;
 }
@@ -28,6 +31,13 @@
     list-style: none;
     display: flex;
     gap: 25px;
+}
+
+.list ul li:hover {
+    width: 100vw;
+    height: auto;
+    background-color: #E42770;
+    color: #fff;
 }
 
 #toggler,
@@ -48,6 +58,20 @@
         flex-direction: column;
         align-items: center;
         padding: 20px;
+    }
+
+    .menu  ul li:hover {
+        width: 100vw;
+        height: 10vh;
+        background-color: #E42770;
+        color: #fff;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu ul li a:hover {
+        color: #fff;
     }
 
     .navbar label {

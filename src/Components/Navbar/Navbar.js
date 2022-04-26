@@ -11,10 +11,10 @@ export default function Navbar() {
             <label htmlFor='toggler'><Icon icon="charm:menu-hamburger" width="50" height="50" /></label>
             <div className='menu'>
                 <ul className='list'>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Skills</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="/">Resumé</a></li>
                 </ul>
             </div>

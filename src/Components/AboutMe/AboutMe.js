@@ -6,13 +6,13 @@ function AboutMe() {
   return (
     <>
     
-      <div className="about_me_parallax">
+      <div className="about_me_parallax" id="about">
       
         <div className="opacity_container">
-           {/* <div><Animation /></div>  */}
+           
           <p className="text_container">
-            my name is Francine Pêpe, and I am a Frontend Developer! I am
-            ocurrently based in Hamburg, Germany, but I was born in Brazil. I
+            Hi, my name is Francine and I am a Frontend Developer!
+            I am currently based in Hamburg, Germany, but I was born in Brazil. I
             love to create stuff, and that is why I first worked as a Fashion
             Designer for almost 10 years. After moving to Germany, I felt like
             changing my career as well, but I still wanted to continue working
