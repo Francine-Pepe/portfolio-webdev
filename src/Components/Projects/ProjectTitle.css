@@ -1,0 +1,55 @@
+
+  .project_title_container {
+    background-color: transparent;
+    height: 30vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-left: 10%;
+  }
+
+.geeks {
+    width: 20%;
+    position: absolute;
+    /* left: 40%; */
+    border-bottom: 5px solid #000;
+    overflow: hidden;
+    animation: animate 4s linear forwards;
+    animation-iteration-count: infinite ;
+}
+
+.geeks h1 {
+    color: #000;
+}
+
+@keyframes animate {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    30% {
+        width: 50px;
+        height: 0px;
+    }
+    60% {
+        width: 50px;
+        height: 80px;
+    }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 620px) {
+  .geeks {
+    width: 50%;
+  }
+
+  .project_title_container {
+    margin-left: 20%;
+  }
+}

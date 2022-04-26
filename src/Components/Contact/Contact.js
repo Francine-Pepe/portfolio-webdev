@@ -27,9 +27,7 @@ export default function Contact() {
   return (
     <>
       <div className="contact_header" id='contact' >
-        
-      
-      <div className='postit_text'>
+        <div className='postit_text'>
               <p>Did you enjoy my work and would like to <br/> develop a project? Just drop me a line! <br /> Francine 🙂</p>
           </div>
       <div className="background_container">
