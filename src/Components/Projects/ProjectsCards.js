@@ -12,7 +12,7 @@ import todolist from "./../../Images/checklist.png";
 import "./Projects.css";
 import ProjectTitle from "./ProjectTitle";
 
-export default function ProjectsCards(props) {
+export default function ProjectsCards(props, index) {
 
   const projects = [
     {
@@ -69,11 +69,11 @@ export default function ProjectsCards(props) {
   return (
     <>
       <div className="cards_container" id="projects">  
-        <ProjectTitle title="PROJECTS" /> 
+        <ProjectTitle title="PROJECTS" key={index} /> 
         <h1> {props.title} </h1>
         {/* <div className="opacity_projects"> */}
         {projects.map((projects, id, item) => (
-          <Card
+          <Card key={projects.id}
             sx={{
               width: "22em",
               height: 'fitContent',
@@ -106,7 +106,7 @@ export default function ProjectsCards(props) {
                 height="160"
                 image={projects.image}
                 alt="projects"
-                textAlign="center"
+                textalign="center"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div"

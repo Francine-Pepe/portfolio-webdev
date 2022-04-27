@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import { Container } from '@mui/material';
 import './Contact.css';
 import { Icon } from '@iconify/react';
+import Animation from './Animation';
 // import Postit from './../Images/postit.png';
 
 export default function Contact() {
@@ -27,11 +28,18 @@ export default function Contact() {
   return (
     <>
       <div className="contact_header" id='contact' >
+      
         <div className='postit_text'>
-              <p>Did you enjoy my work and would like to <br/> develop a project? Just drop me a line! <br /> Francine 🙂</p>
+        
+              <p>Did you enjoy my work and would like to <br/> develop a project? Just drop me a line! <br /> Francine 🙂 </p>
+              
+              <div className='animation'>
+              <Animation />
+            </div>
           </div>
+          
       <div className="background_container">
-        <Container fluid className="contact_container mt-5"
+        <Container fluid="true" className="contact_container mt-5"
           sx={{
             display: 'flex',
             marginTop: 5,
@@ -42,15 +50,17 @@ export default function Contact() {
           
           {/* <img className="postit" src={Postit} alt="postit" width="500" height="500" /> */}
           
-          <form  className="form_box" onSubmit={sendEmail}>
+          <form  className="form_box" onSubmit={sendEmail} ref={form}>
             <label>Name:</label>
             <input type="text" name="user_name" />
             <label>Email:</label>
             <input type="email" name="user_email" />
             <label>Message:</label>
             <textarea name="message" />
-            <button type="submit" value="Send" ><Icon icon="fluent:send-28-regular" color="#F8F8F8" width="40" height="35" /></button>
+            <button type="submit" value="Send"><Icon icon="fluent:send-28-regular" color="#F8F8F8" width="40" height="35" /></button>
           </form>
+
+          
           
         </Container>
         
