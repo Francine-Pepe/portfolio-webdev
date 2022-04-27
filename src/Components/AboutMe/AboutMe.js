@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
-import { Icon } from "@iconify/react";
+import ArrowAnimation from "./ArrowAnimation";
 
 function AboutMe() {
   return (
@@ -20,12 +20,11 @@ function AboutMe() {
             and Apps. I am passionate about visual design and animation, which I
             guess I express myself in the most effective and clean way.
             <br />
-            I work mainly with HTML 5, CSS 3, JavaScript and React.js
-            Applications, but during this new journey, I felt the need to learn
-            other libraries and frameworks, such as Vue.js and Sass. But I won't
-            deny my preference for React{" "}
-            <Icon icon="vscode-icons:file-type-reactts" width="32" height="32" />
+            And what do I do? 
           </p>
+          <div>
+            <ArrowAnimation />
+          </div>
         </div>
       </div>
     </>

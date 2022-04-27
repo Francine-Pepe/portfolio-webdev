@@ -134,7 +134,23 @@ body {
     border: none;
 }
 
+.technologies_used  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 22em;
+    height: 10em;
+    background-color: rgb(255, 160, 0, 0.5);
+    color: #000;
+    border-radius: 2em;
+    padding: 2em;
+    transition: transform 0.15s ease-in-out;
+}
 
+.technologies_used:hover {
+    transform: scale3d(1.05, 1.05, 1);
+}
 
 /* Media Queries */
 

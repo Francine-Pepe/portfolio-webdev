@@ -50,7 +50,7 @@ body {
   .text_container {
     width: 90vw;
     text-align: center;
-    padding: 1em;
+    /* padding: 1em; */
     height: fit-content;
   }
 
@@ -64,6 +64,6 @@ body {
     font-family: "Cabin Condensed", sans-serif;
     font-size: 1.5em;
     line-height: 1.8;
-    padding-top: 3em;
+    /* padding-top: 1em; */
   }
 }
