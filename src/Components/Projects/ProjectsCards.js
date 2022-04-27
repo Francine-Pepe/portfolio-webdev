@@ -11,8 +11,11 @@ import easyPeasy from "./../../Images/easy_peasy-logo_transparent.png";
 import todolist from "./../../Images/checklist.png";
 import "./Projects.css";
 import ProjectTitle from "./ProjectTitle";
+import { useState } from "react";
 
 export default function ProjectsCards(props, index) {
+
+  const [show, setShow] = useState(false);
 
   const projects = [
     {
@@ -68,39 +71,49 @@ export default function ProjectsCards(props, index) {
 
   return (
     <>
-      <div className="cards_container" id="projects">  
-        <ProjectTitle title="PROJECTS" key={index} /> 
+      <div className="cards_container" id="projects">
+        <ProjectTitle title="PROJECTS" key={index} />
         <h1> {props.title} </h1>
         {/* <div className="opacity_projects"> */}
         {projects.map((projects, id, item) => (
-          <Card key={projects.id}
+          <Card
+            onMouseOver={() => setShow(true)}
+            onMouseOut={() => setShow(false)}
+            toggle="false"
+            key={projects.id}
             sx={{
               width: "22em",
-              height: 'fitContent',
+              height: "fitContent",
               display: "flex",
               flexWrap: "wrap",
               justifyContent: "center",
               alignItems: "center",
               margin: "3em",
-              borderRadius: '4em',
+              borderRadius: "4em",
               padding: "2em",
               border: "none",
             }}
           >
             <CardActionArea
-            sx={{
-              "& .MuiTouchRipple-root": {
-                fontFamily: 'Roboto Slab',
-                borderRadius: '4em 4em 0 0',
-                backgroundColor: 'transparent'
+              sx={{
+                "& .MuiTouchRipple-root": {
+                  fontFamily: "Roboto Slab",
+                  borderRadius: "4em 4em 0 0",
+                  backgroundColor: "transparent",
+                  
                 },
 
                 "& .MuiCardActionArea-focusHighlight": {
-                  borderRadius: '4em 4em 0 0',
+                  borderRadius: "4em 4em 0 0",
+                  color: '#fff',  
                   
-                  }
-            }}
+                },
+
+                
+
+              }}
             >
+              {show && <p className="technologies_used">Technologies used: <hr />{ projects.technologies }</p>}
               <CardMedia
                 component="img"
                 height="160"
@@ -109,22 +122,25 @@ export default function ProjectsCards(props, index) {
                 textalign="center"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div"
-                className="cards_title"
-                fontSize="1.8rem"
-                fontFamily="Roboto Slab"
-                
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  className="cards_title"
+                  fontSize="1.8rem"
+                  fontFamily="Roboto Slab"
                 >
                   {projects.name}
                 </Typography>
-                <Typography variant="body2" color="text.secondary"
-                className="cards_text"
-                fontSize="0.9rem"
-                sx={{
-                  fontFamily: "Roboto Slab",
-                  color: '#000',
-                  
-                }}
+                <Typography
+                  variant="body2"
+                  color="text.secondary"
+                  className="cards_text"
+                  fontSize="0.9rem"
+                  sx={{
+                    fontFamily: "Roboto Slab",
+                    color: "#000",
+                  }}
                 >
                   {projects.description}
                 </Typography>
@@ -132,7 +148,6 @@ export default function ProjectsCards(props, index) {
               </CardContent>
             </CardActionArea>
             <CardActions>
-
               <button
                 className="visit_button"
                 style={{ display: projects.link ? "block" : "none" }}
@@ -160,7 +175,7 @@ export default function ProjectsCards(props, index) {
             </CardActions>
           </Card>
         ))}
-        </div>
+      </div>
       {/* </div> */}
     </>
   );

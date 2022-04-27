@@ -18,7 +18,7 @@
     width: 20%;
     position: absolute;
     /* left: 40%; */
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid rgb(56, 56, 56);
     overflow: hidden;
     animation: animate 4s linear forwards;
     animation-iteration-count: infinite ;
