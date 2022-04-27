@@ -3,11 +3,11 @@ import "./Skills.css";
 import { Icon } from "@iconify/react";
 import ProjectTitle from "../Projects/ProjectTitle";
 
-export default function Skills(props) {
+export default function Skills(props, index) {
   return (
     <>
       <div className="skills_container" id="skills">
-      <ProjectTitle title="SKILLS" /> 
+      <ProjectTitle title="SKILLS" key={index}/> 
         <h1> {props.title}</h1> 
         <Box
           className="box_container"
