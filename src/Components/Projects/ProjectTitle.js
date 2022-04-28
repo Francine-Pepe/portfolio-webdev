@@ -5,8 +5,8 @@ export default function ProjectTitle(props) {
     return (
     <>
 
-      <div class="project_title_container">
-          <div class="typing-demo">
+      <div className="project_title_container">
+          <div className="typing-demo">
             {title}
           </div>
       </div>

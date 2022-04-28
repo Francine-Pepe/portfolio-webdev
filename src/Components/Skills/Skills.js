@@ -20,7 +20,7 @@ export default function Skills(props, index) {
               m: 1,
               width: "25em",
               height: "32em",
-              padding: "2em",
+              padding: "1em",
               margin: "3em",
               borderRadius: "4em",
             },

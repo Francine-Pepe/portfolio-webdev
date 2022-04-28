@@ -43,7 +43,14 @@ export default function Contact() {
           sx={{
             display: 'flex',
             marginTop: 5,
-            
+            justifyContent: 'center',
+
+            "& .MuiContainer-root": {
+              display: 'center',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: '100%'
+            }
           }}
         
         >   
