@@ -14,7 +14,6 @@ import ProjectTitle from "./ProjectTitle";
 import { useState } from "react";
 
 export default function ProjectsCards(props, index) {
-
   const [show, setShow] = useState(false);
 
   const projects = [
@@ -79,7 +78,6 @@ export default function ProjectsCards(props, index) {
           <Card
             onMouseOver={() => setShow(true)}
             onMouseOut={() => setShow(false)}
-            toggle="false"
             key={projects.id}
             sx={{
               width: "22em",
@@ -100,20 +98,22 @@ export default function ProjectsCards(props, index) {
                   fontFamily: "Roboto Slab",
                   borderRadius: "4em 4em 0 0",
                   backgroundColor: "transparent",
-                  
+                  backfaceVisibility: "hidden"
                 },
 
                 "& .MuiCardActionArea-focusHighlight": {
                   borderRadius: "4em 4em 0 0",
-                  color: '#fff',  
-                  
+                  color: "#fff",
+                  backgroundColor: "transparent",
                 },
-
-                
-
               }}
             >
-              {show && <p className="technologies_used">Technologies used: <hr />{ projects.technologies }</p>}
+              {show && (
+                <p className="technologies_used" >
+                  Technologies used: <hr />
+                  {projects.technologies}
+                </p>
+              )}
               <CardMedia
                 component="img"
                 height="160"
