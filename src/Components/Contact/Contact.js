@@ -46,7 +46,7 @@ export default function Contact() {
             justifyContent: 'center',
 
             "& .MuiContainer-root": {
-              display: 'center',
+              display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               width: '100%'

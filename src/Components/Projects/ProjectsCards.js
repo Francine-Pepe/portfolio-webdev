@@ -11,10 +11,10 @@ import easyPeasy from "./../../Images/easy_peasy-logo_transparent.png";
 import todolist from "./../../Images/checklist.png";
 import "./Projects.css";
 import ProjectTitle from "./ProjectTitle";
-import { useState } from "react";
+
 
 export default function ProjectsCards(props, index) {
-  // const [show, setShow] = useState(false);
+  
 
   const projects = [
     {
