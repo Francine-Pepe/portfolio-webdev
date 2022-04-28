@@ -1,56 +1,36 @@
-
-  .project_title_container {
-    background-color: transparent;
-    height: 30vh;
-    width: 100vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: flex-start;
-    align-items: center;
-    display: flex;
-    padding-left: 10%;
-    padding-bottom: 0;
-  }
-
-.geeks {
-    width: 20%;
-    position: absolute;
-    /* left: 40%; */
-    border-bottom: 5px solid rgb(56, 56, 56);
-    overflow: hidden;
-    animation: animate 4s linear forwards;
-    animation-iteration-count: infinite ;
+.project_title_container {
+  background-color: transparent;
+  height: 20vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding-left: 10%;
 }
 
-.geeks h1 {
-    color: #000;
+.typing-demo {
+  width: 10ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
 }
 
-@keyframes animate {
-    0% {
-        width: 0px;
-        height: 0px;
-    }
-    30% {
-        width: 50px;
-        height: 0px;
-    }
-    60% {
-        width: 50px;
-        height: 80px;
-    }
-}
-
-/* Media Queries */
-
-@media only screen and (max-width: 620px) {
-  .geeks {
-    width: 50%;
-  }
-
-  .project_title_container {
-    padding-left: 20%;
+@keyframes typing {
+  from {
+    width: 0
   }
 }
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+

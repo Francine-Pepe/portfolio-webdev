@@ -141,16 +141,26 @@ body {
     flex-direction: column;
     width: 22em;
     height: 10em;
-    background-color: rgb(255, 160, 0, 0.5);
+    background-color: rgb(255, 160, 0);
     color: #000;
     border-radius: 2em;
     padding: 2em;
-    transition: transform 0.15s ease-in-out;
+    transition: transform 1s ease-in;
+    position: relative;
 }
+
+.technologies_used:hover::after {
+    content: "";
+}
+/* .technologies_used:hover + .show_technologies {
+    display: block;
+} */
 
 .technologies_used:hover {
     transform: scale3d(1.05, 1.05, 1);
 }
+
+
 
 /* Media Queries */
 
