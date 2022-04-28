@@ -1,77 +1,78 @@
 .skills_container {
-    background-image: url('./../../Images/skills_medium.jpg');
-    height: fit-content;
-    width: 100vw;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+  background-image: url("./../../Images/skills_medium.jpg");
+  height: fit-content;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cards_title p {
-  font-family: "Cabin Condensed", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   line-height: 3;
   padding: 1em;
 }
 
 .skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .skills_title {
-    text-align: center;
-    height: 4em;
+  text-align: center;
+  height: 4em;
+}
+
+.skills_title h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 hr {
-    width: 15em;
-    background-color: #44CFCB;
-    color: #44CFCB;
-    
+  width: 15em;
+  background-color: #44cfcb;
+  color: #44cfcb;
 }
 
 .hide {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: black;
-    color: white;
-    margin-bottom: 5px;
-    font-size: 0.7rem;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear;
-    transition: visibility 0s, opacity 0.5s linear;
-    text-align: center;
-  }
-  
-  .icon:hover + .hide {
-    display: block;
-  }
-  
-  .icon_container {
-    position: relative;
-    float: left;
-    margin: 1.5em;
-  }
-  
-  .icon_container:hover {
-    cursor: pointer;
-  }
-  
-  .icon_container:hover div {
-    width: 5rem;
-    height: auto;
-    /* padding: 8px 15px; */
-    visibility: visible;
-    opacity: 0.7;
-  }
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 0.7rem;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+  text-align: center;
+}
 
-  /* Media Queries */
+.icon:hover + .hide {
+  display: block;
+}
 
- 
+.icon_container {
+  position: relative;
+  float: left;
+  margin: 1.5em;
+}
+
+.icon_container:hover {
+  cursor: pointer;
+}
+
+.icon_container:hover div {
+  width: 5rem;
+  height: auto;
+  /* padding: 8px 15px; */
+  visibility: visible;
+  opacity: 0.7;
+}
+
+/* Media Queries */

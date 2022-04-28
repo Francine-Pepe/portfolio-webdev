@@ -20,7 +20,7 @@ function AboutMe() {
             and Apps. I am passionate about visual design and animation, which I
             guess I express myself in the most effective and clean way.
             <br />
-            And what do I do? <br /> You can find out bellow
+            <h4>And what do I do? <br /> You can find out bellow</h4>
           </p>
           <div>
             <ArrowAnimation />

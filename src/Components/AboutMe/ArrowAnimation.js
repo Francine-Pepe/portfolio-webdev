@@ -3,9 +3,9 @@ import "./AboutMe.css";
 export default function ArrowAnimation() {
   return (
     <>
-      <div class="center-con">
+      <div className="center-con">
         <a href="#projects">
-          <div class="round">
+          <div className="round">
             <span></span>
             <span></span>
             <span></span>

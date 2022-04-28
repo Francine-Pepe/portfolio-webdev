@@ -14,7 +14,7 @@ import ProjectTitle from "./ProjectTitle";
 import { useState } from "react";
 
 export default function ProjectsCards(props, index) {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
   const projects = [
     {
@@ -73,11 +73,13 @@ export default function ProjectsCards(props, index) {
       <div className="cards_container" id="projects">
         <ProjectTitle title="PROJECTS" key={index} />
         <h1> {props.title} </h1>
+        
         {/* <div className="opacity_projects"> */}
         {projects.map((projects, id, item) => (
           <Card
-            onMouseOver={() => setShow(true)}
-            onMouseOut={() => setShow(false)}
+            className="cards"
+            // onMouseOver={() => setShow(true)}
+            // onMouseOut={() => setShow(false)}
             key={projects.id}
             sx={{
               width: "22em",
@@ -95,10 +97,10 @@ export default function ProjectsCards(props, index) {
             <CardActionArea
               sx={{
                 "& .MuiTouchRipple-root": {
-                  fontFamily: "Roboto Slab",
+                  fontFamily: "Raleway",
                   borderRadius: "4em 4em 0 0",
                   backgroundColor: "transparent",
-                  backfaceVisibility: "hidden"
+                  backfaceVisibility: "hidden",
                 },
 
                 "& .MuiCardActionArea-focusHighlight": {
@@ -108,12 +110,12 @@ export default function ProjectsCards(props, index) {
                 },
               }}
             >
-              {show && (
-                <p className="technologies_used" >
+              {/* {show && (
+                <div className="technologies_used" >
                   Technologies used: <hr />
                   {projects.technologies}
-                </p>
-              )}
+                </div>
+              )} */}
               <CardMedia
                 component="img"
                 height="160"
@@ -128,9 +130,11 @@ export default function ProjectsCards(props, index) {
                   component="div"
                   className="cards_title"
                   fontSize="1.8rem"
-                  fontFamily="Roboto Slab"
+                  fontFamily="Raleway"
                 >
+                  
                   {projects.name}
+                  <div className="tech_hide"><h6>Technologies used:<hr /></h6>{projects.technologies}</div>
                 </Typography>
                 <Typography
                   variant="body2"
@@ -138,7 +142,7 @@ export default function ProjectsCards(props, index) {
                   className="cards_text"
                   fontSize="0.9rem"
                   sx={{
-                    fontFamily: "Roboto Slab",
+                    fontFamily: "Raleway",
                     color: "#000",
                   }}
                 >
@@ -173,6 +177,7 @@ export default function ProjectsCards(props, index) {
                 </a>
               </button>
             </CardActions>
+            
           </Card>
         ))}
       </div>
