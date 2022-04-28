@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-webdev/static/css/main.593acc23.css",
+    "main.js": "/portfolio-webdev/static/js/main.4a1ebcf6.js",
+    "static/js/787.eed019d6.chunk.js": "/portfolio-webdev/static/js/787.eed019d6.chunk.js",
+    "static/media/francine_medium.jpg": "/portfolio-webdev/static/media/francine_medium.4b3969cdcd676fde7e6c.jpg",
+    "static/media/project_background_medium.jpg": "/portfolio-webdev/static/media/project_background_medium.dbb454430e4d68051caa.jpg",
+    "static/media/skills_medium.jpg": "/portfolio-webdev/static/media/skills_medium.2f0bbad94f16f0ea9dd1.jpg",
+    "static/media/Healthy Life-logos_transparent.png": "/portfolio-webdev/static/media/Healthy Life-logos_transparent.113477e4444e2c28a5b9.png",
+    "static/media/easy_peasy-logo_transparent.png": "/portfolio-webdev/static/media/easy_peasy-logo_transparent.dc93898c3bfc45500e67.png",
+    "static/media/BF_Logo.png": "/portfolio-webdev/static/media/BF_Logo.5236e789d01febee9669.png",
+    "static/media/photopedia_logo_transparent.png": "/portfolio-webdev/static/media/photopedia_logo_transparent.6bb6b296890e641bc512.png",
+    "static/media/checklist.png": "/portfolio-webdev/static/media/checklist.1d02f9f5f8051ebe7f7a.png",
+    "index.html": "/portfolio-webdev/index.html",
+    "main.593acc23.css.map": "/portfolio-webdev/static/css/main.593acc23.css.map",
+    "main.4a1ebcf6.js.map": "/portfolio-webdev/static/js/main.4a1ebcf6.js.map",
+    "787.eed019d6.chunk.js.map": "/portfolio-webdev/static/js/787.eed019d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.593acc23.css",
+    "static/js/main.4a1ebcf6.js"
+  ]
+}
