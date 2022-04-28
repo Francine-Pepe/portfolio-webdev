@@ -10,7 +10,7 @@ function AboutMe() {
       
         <div className="opacity_container">
            
-          <p className="text_container">
+          <div className="text_container">
             Hi, my name is Francine and I am a Frontend Developer!
             I am currently based in Hamburg, Germany, but I was born in Brazil. I
             love to create stuff, and that is why I first worked as a Fashion
@@ -21,7 +21,7 @@ function AboutMe() {
             guess I express myself in the most effective and clean way.
             <br />
             <h4>And what do I do? <br /> You can find out bellow</h4>
-          </p>
+          </div>
           <div>
             <ArrowAnimation />
           </div>
