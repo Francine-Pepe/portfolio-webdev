@@ -12,10 +12,7 @@ import todolist from "./../../Images/checklist.png";
 import "./Projects.css";
 import ProjectTitle from "./ProjectTitle";
 
-
 export default function ProjectsCards(props, index) {
-  
-
   const projects = [
     {
       id: "4",
@@ -71,9 +68,10 @@ export default function ProjectsCards(props, index) {
   return (
     <>
       <div className="cards_container" id="projects">
+        {/* <div className="opacity_container"> */}
         <ProjectTitle title="PROJECTS" key={index} />
         <h1> {props.title} </h1>
-        
+
         {/* <div className="opacity_projects"> */}
         {projects.map((projects, id, item) => (
           <Card
@@ -92,6 +90,8 @@ export default function ProjectsCards(props, index) {
               borderRadius: "4em",
               padding: "2em",
               border: "none",
+              backgroundColor: '#F9F5F2',
+              boxShadow: '5px 10px rgba(136, 136, 136, 0.5)'
             }}
           >
             <CardActionArea
@@ -132,9 +132,14 @@ export default function ProjectsCards(props, index) {
                   fontSize="1.8rem"
                   fontFamily="Raleway"
                 >
-                  
                   {projects.name}
-                  <div className="tech_hide"><h6>Technologies used:<hr /></h6>{projects.technologies}</div>
+                  <div className="tech_hide">
+                    <h6>
+                      Technologies used:
+                      <hr />
+                    </h6>
+                    {projects.technologies}
+                  </div>
                 </Typography>
                 <Typography
                   variant="body2"
@@ -177,10 +182,10 @@ export default function ProjectsCards(props, index) {
                 </a>
               </button>
             </CardActions>
-            
           </Card>
         ))}
       </div>
+      {/* </div> */}
       {/* </div> */}
     </>
   );
