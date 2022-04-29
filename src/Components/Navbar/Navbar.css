@@ -18,13 +18,13 @@
 }
 
 .navbar a:hover {
-    color: #E42770;
+    color: #EFA392;
 }
 .logo {
     left: 0 !important;
 }
 .logo img {
-    width: 12em;
+    width: 10em;
     /* margin-left: -100px; */
 }
 
@@ -37,7 +37,7 @@
 .list ul li:hover {
     width: 100vw;
     height: auto;
-    background-color: #E42770;
+    background-color: #DCABA0;
     color: #fff;
 }
 
@@ -64,7 +64,7 @@
     .menu  ul li:hover {
         width: 100vw;
         height: 10vh;
-        background-color: #E42770;
+        background-color: #DCABA0;
         color: #fff;
         justify-content: center;
         display: flex;

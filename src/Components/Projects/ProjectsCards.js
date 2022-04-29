@@ -91,7 +91,7 @@ export default function ProjectsCards(props, index) {
               padding: "2em",
               border: "none",
               backgroundColor: '#F9F5F2',
-              boxShadow: '5px 10px rgba(136, 136, 136, 0.5)'
+              boxShadow: '5px 10px rgba(136, 136, 136, 0.3)'
             }}
           >
             <CardActionArea
@@ -136,7 +136,7 @@ export default function ProjectsCards(props, index) {
                   <div className="tech_hide">
                     <h6>
                       Technologies used:
-                      <hr />
+                      {/* <hr /> */}
                     </h6>
                     {projects.technologies}
                   </div>

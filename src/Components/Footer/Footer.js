@@ -16,8 +16,7 @@ export default function Footer() {
                 <SocialMedia />
             </div>
             <small>&copy; Copyright {getCurrentYear()} - Francine Pêpe</small>
-            <a href="https://www.freepik.com/vectors/aesthetic-poster">Aesthetic poster vector created by starline - www.freepik.com</a>
-            
+            <a href='https://www.freepik.com/vectors/foliage'>Credits</a>
         </footer>
         
         </>

@@ -1,11 +1,12 @@
 .cards_container {
-  background-image: url("./../../Images/bg_1_medium.png");
+  background-image: url("./../../Images/background_image_-1.png");
   height: fit-content;
   width: 100vw;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-top: 3px ridge #DCABA0;
 }
 
 .cards_title {
@@ -107,12 +108,16 @@ body {
 .visit_button {
   width: 5rem;
   height: 2rem;
-  background-color: #ffa000;
+  background-color: #A2CDC3;
   font-family: "Raleway", sans-serif;
   border: none;
   border-radius: 5px;
   margin: 1rem;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+.visit_button a:hover {
+  color: #F9F5F2;
 }
 
 .visit_button a {
@@ -124,8 +129,8 @@ body {
 .project_hr {
   width: 15em;
   height: 0.1em;
-  color: #44cfcb;
-  background-color: #44cfcb;
+  color: #EECF7C;
+  background-color: #EECF7C;
   border: none;
 }
 
@@ -133,7 +138,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: rgb(255, 160, 0);
+  background-color: #A2CDC3;
   color: #000;
   font-size: 0.8em;
   opacity: 0;
@@ -149,6 +154,14 @@ body {
   font-weight: 100;
 }
 
+.tech_hide hr {
+  width: 15em;
+  height: 0.1em;
+  color: #EECF7C;
+  background-color: #EECF7C;
+  border: none;
+
+}
 .cards_title:hover div {
   width: 13em;
   height: fit-content;
@@ -162,29 +175,45 @@ body {
   font-size: 0.75em;
 }
 
-h6 {
+.tech_hide h6 {
   font-family: "Raleway", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
+  border-bottom: #e4a700 1px solid;
+  padding: 0.5em;
 }
 
 /* Media Queries */
 
-@media only screen and (max-width: 620px) {
+@media only screen and (min-width: 451px) and (max-width: 620px) {
   .cards {
     width: 60vw;
     height: auto;
     /* padding: 0 1em; */
     margin: 0 2em;
   }
-}
-
-@media only screen and (max-width: 450px) {
   .cards_title:hover div {
     width: 10em;
     font-size: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 450px) {
+  .cards_title:hover div {
+    width: 10em;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
 
   .project_hr {
     width: 10em;
   }
+
+  
 }

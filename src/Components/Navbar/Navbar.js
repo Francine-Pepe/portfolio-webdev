@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import { Icon } from "@iconify/react";
-import Logo from "./../../Images/Francine-Pêpe-(4).png";
+import Logo from "./../../Images/logo_fran_bigger.png";
 
 export default function Navbar() {
   return (
@@ -11,7 +11,7 @@ export default function Navbar() {
         </a>
         <input type="checkbox" id="toggler" />
         <label htmlFor="toggler">
-          <Icon icon="charm:menu-hamburger" width="50" height="50" />
+          <Icon icon="system-uicons:menu-hamburger" color="#373737" width="50" height="50" />
         </label>
         <div className="menu">
           <ul className="list">
