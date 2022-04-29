@@ -12,3 +12,9 @@
     padding: 1em;
 
 }
+
+.social_icons_icons:hover {
+    background: #fff;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}

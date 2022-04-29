@@ -15,8 +15,8 @@ export default function SocialMedia() {
                     className="social_icons_icons"
                     icon="akar-icons:github-fill"
                     color="#5987b6"
-                    width="30"
-                    height="30"
+                    width="35"
+                    height="35"
                     />
                 </a>
                 <a
@@ -28,8 +28,8 @@ export default function SocialMedia() {
                     className="social_icons_icons"
                     icon="entypo-social:linkedin-with-circle"
                     color="#5987b6"
-                    width="30"
-                    height="30"
+                    width="35"
+                    height="35"
                     />
                 </a>
                 <a
@@ -41,8 +41,8 @@ export default function SocialMedia() {
                     className="social_icons_icons"
                     icon="ant-design:behance-circle-filled"
                     color="#5987b6"
-                    width="30"
-                    height="30"
+                    width="35"
+                    height="35"
                     />
                 </a>
                 <a
@@ -54,8 +54,8 @@ export default function SocialMedia() {
                     className="social_icons_icons"
                     icon="entypo-social:instagram-with-circle"
                     color="#5987b6"
-                    width="30"
-                    height="30"
+                    width="35"
+                    height="35"
                     />
                 </a>
             </div>
