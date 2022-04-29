@@ -17,7 +17,7 @@ function AboutMe() {
             Designer for almost 10 years. After moving to Germany, I felt like
             changing my career as well, but I still wanted to continue working
             creatively, so, here I am creating beautiful and functional Websites
-            and Apps. I am passionate about visual design and animation, which I
+            and Apps. I am passionate about Visual Design and Animation, which I
             guess I express myself in the most effective and clean way.
             <br />
             <h4>And what do I do? <br /> You can find out bellow</h4>
