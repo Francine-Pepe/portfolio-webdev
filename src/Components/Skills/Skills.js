@@ -7,6 +7,7 @@ export default function Skills(props, index) {
   return (
     <>
       <div className="skills_container" id="skills">
+        {/* <div className="opacity_container" > */}
         <ProjectTitle title="SKILLS" key={index} />
         <h1> {props.title}</h1>
         <Box
@@ -162,6 +163,7 @@ export default function Skills(props, index) {
           </Paper>
         </Box>
       </div>
+      {/* </div> */}
     </>
   );
 }

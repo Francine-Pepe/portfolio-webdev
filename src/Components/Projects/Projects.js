@@ -1,8 +1,8 @@
-import './Projects.css';
-import * as React from 'react';
+import "./Projects.css";
+import * as React from "react";
 // import CssBaseline from '@mui/material/CssBaseline';
 // import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
+import Container from "@mui/material/Container";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
@@ -16,24 +16,21 @@ import bespoke from "./../../Images/BF_Logo.png";
 import photopedia from "./../../Images/photopedia_logo_transparent.png";
 import healthyLife from "./../../Images/Healthy Life-logos_transparent.png";
 import easyPeasy from "./../../Images/easy_peasy-logo_transparent.png";
-import todolist from './../../Images/checklist.png';
-
-
+import todolist from "./../../Images/checklist.png";
 
 const ExpandMore = styled((props) => {
-    const { expand, ...other } = props;
-    return <IconButton {...other} />;
-  })(({ theme, expand }) => ({
-    transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
-    marginLeft: "auto",
-    transition: theme.transitions.create("transform", {
-      duration: theme.transitions.duration.shortest,
-    }),
-  }));
+  const { expand, ...other } = props;
+  return <IconButton {...other} />;
+})(({ theme, expand }) => ({
+  transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
+  marginLeft: "auto",
+  transition: theme.transitions.create("transform", {
+    duration: theme.transitions.duration.shortest,
+  }),
+}));
 
 export default function Projects() {
-
-    const [expanded, setExpanded] = React.useState(false);
+  const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -89,123 +86,125 @@ export default function Projects() {
       link: "",
       technologies: "HTML 5 |  CSS 3  |  Bootstrap  |  Adobe XD",
     },
-    
   ];
 
   return (
-    
-      <Container maxWidth="xl" className='projects_container'>
-          <div className="cards_container">
-        <div className="card_box">
-          <Card
-            sx={{
-              p: 1,
-              width: '90vw',
-              display: "flex",
-              flexWrap: 'wrap',
-              justifyContent: 'center',
-              alignItems: 'center',
-              // gridTemplateColumns: {
-              //   xl: "1fr 1fr 1fr",
-              //   lg: "1fr 1fr",
-              //   md: "1fr 1fr",
-              //   sm: "1fr",
-              // },
-              gap: '5em',
-              margin: '5em',
-              padding: '2em',
-              border: "none",
-              backgroundColor: 'transparent'
-              
-            }}
-          >
-            {projects.map((projects, id, item) => (
-              <div>
-                <Card
-                  className="cards"
-                  sx={{
-                    boxShadow: "5px 5px 5px 5px #E8E8E8",
-                    shadowRadius: 2,
-                    elevation: 10,
-                    
-                  }}
-                >
-                  <Typography
-                    className="cards_title"
-                    fontSize="1.8rem"
-                    color="text.secondary"
-                    fontFamily="Roboto Slab"
+    <Container maxWidth="xl" className="projects_container">
+      <div className="cards_container">
+        <div className="opacity_container">
+          <div className="card_box">
+            <Card
+              sx={{
+                p: 1,
+                width: "90vw",
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center",
+                alignItems: "center",
+                // gridTemplateColumns: {
+                //   xl: "1fr 1fr 1fr",
+                //   lg: "1fr 1fr",
+                //   md: "1fr 1fr",
+                //   sm: "1fr",
+                // },
+                gap: "5em",
+                margin: "5em",
+                padding: "2em",
+                border: "none",
+                
+              }}
+            >
+              {projects.map((projects, id, item) => (
+                <div>
+                  <Card
+                    className="cards"
+                    sx={{
+                      boxShadow: "5px 5px 5px 5px #E8E8E8",
+                      shadowRadius: 2,
+                      elevation: 10,
+                    }}
                   >
-                    {projects.name}
-                  </Typography>
-                  <hr className="line" />
-                  <CardMedia
-                    component="img"
-                    height="194"
-                    image={projects.image}
-                    alt="project name"
-                  />
-                  <CardContent>
                     <Typography
-                      className="cards_text"
-                      fontSize="0.9rem"
+                      className="cards_title"
+                      fontSize="1.8rem"
                       color="text.secondary"
-                      sx={{
-                        fontFamily: "Roboto Slab",
-                      }}
+                      fontFamily="Roboto Slab"
                     >
-                      {projects.description}
+                      {projects.name}
                     </Typography>
                     <hr className="line" />
-                    <div className="button_container">
-                      <button className="visit_button" style={{ display: projects.link ? "block" : "none" }}>
-                        <a
-                          href={projects.link}
-                          target="_blank"
-                          rel="noreferrer noopener"
+                    <CardMedia
+                      component="img"
+                      height="194"
+                      image={projects.image}
+                      alt="project name"
+                    />
+                    <CardContent>
+                      <Typography
+                        className="cards_text"
+                        fontSize="0.9rem"
+                        color="text.secondary"
+                        sx={{
+                          fontFamily: "Roboto Slab",
+                        }}
+                      >
+                        {projects.description}
+                      </Typography>
+                      <hr className="line" />
+                      <div className="button_container">
+                        <button
+                          className="visit_button"
+                          style={{ display: projects.link ? "block" : "none" }}
                         >
-                          VISIT
-                        </a>
-                      </button>
-                      <button className="visit_button" style={{ display: projects.github ? "block" : "none" }}>
-                        <a
-                          href={projects.github}
-                          target="_blank"
-                          rel="noreferrer noopener"
+                          <a
+                            href={projects.link}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            VISIT
+                          </a>
+                        </button>
+                        <button
+                          className="visit_button"
+                          style={{
+                            display: projects.github ? "block" : "none",
+                          }}
                         >
-                          REPO
-                        </a>
-                      </button>
-                    </div>
-                  </CardContent>
-                  <CardActions disableSpacing>
-                    <div className="technologies_title">
-                      <h4>This Project was made with:</h4>
-                    </div>
-                    <ExpandMore
-                      expand={expanded}
-                      onClick={handleExpandClick}
-                      aria-expanded={expanded}
-                      aria-label="show more"
-                    >
-                      <ExpandMoreIcon />
-                    </ExpandMore>
-                  </CardActions>
-                  <Collapse in={expanded} timeout="auto" unmountOnExit>
-                    <CardContent className="card_content">
-                      {projects.technologies}
+                          <a
+                            href={projects.github}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            REPO
+                          </a>
+                        </button>
+                      </div>
                     </CardContent>
-                  </Collapse>
-                </Card>
-              </div>
-            ))}
-          </Card>
+                    <CardActions disableSpacing>
+                      <div className="technologies_title">
+                        <h4>This Project was made with:</h4>
+                      </div>
+                      <ExpandMore
+                        expand={expanded}
+                        onClick={handleExpandClick}
+                        aria-expanded={expanded}
+                        aria-label="show more"
+                      >
+                        <ExpandMoreIcon />
+                      </ExpandMore>
+                    </CardActions>
+                    <Collapse in={expanded} timeout="auto" unmountOnExit>
+                      <CardContent className="card_content">
+                        {projects.technologies}
+                      </CardContent>
+                    </Collapse>
+                  </Card>
+                </div>
+              ))}
+            </Card>
+          </div>
         </div>
       </div>
-
-
-      </Container>
-      
-    
+    </Container>
   );
 }

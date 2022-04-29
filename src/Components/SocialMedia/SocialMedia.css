@@ -2,4 +2,13 @@
     display: flex;
     justify-content: space-evenly;
     padding: 1em;
+    
+}
+
+.social_icons {
+    width: 15em;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+
 }
