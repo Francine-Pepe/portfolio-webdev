@@ -7,8 +7,8 @@ export default function Skills(props, index) {
   return (
     <>
       <div className="skills_container" id="skills">
-      <ProjectTitle title="SKILLS" key={index}/> 
-        <h1> {props.title}</h1> 
+        <ProjectTitle title="SKILLS" key={index} />
+        <h1> {props.title}</h1>
         <Box
           className="box_container"
           sx={{
@@ -21,7 +21,7 @@ export default function Skills(props, index) {
               width: "25em",
               height: "32em",
               padding: "1em",
-              margin: "3em",
+              margin: "2em",
               borderRadius: "4em",
             },
           }}
@@ -70,11 +70,7 @@ export default function Skills(props, index) {
                 <div className="hide">React JS</div>
               </div>
               <div className="icon_container">
-                <Icon 
-                icon="logos:vue" 
-                width="60" 
-                height="60" 
-                />
+                <Icon icon="logos:vue" width="60" height="60" />
                 <div className="hide">Vue.js</div>
               </div>
               <div className="icon_container">

@@ -24,7 +24,6 @@
 
 .skills_title {
   text-align: center;
-  height: 4em;
 }
 
 .skills_title h2 {
@@ -82,6 +81,8 @@ hr {
     height: fit-content;
     
   }
-
+  .tech_hide hr {
+    width: 10em;
+  }
   
 }
