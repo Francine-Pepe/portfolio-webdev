@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <a href="/" className="logo">
+        <a href="#about" className="logo">
           <img src={Logo} alt="logo" />
         </a>
         <input type="checkbox" id="toggler" />
