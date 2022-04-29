@@ -1,7 +1,7 @@
  .social_media_container {
     display: flex;
     justify-content: space-evenly;
-    padding: 1em;
+    /* padding: 1em; */
     
 }
 

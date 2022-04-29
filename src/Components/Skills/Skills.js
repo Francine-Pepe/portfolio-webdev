@@ -24,6 +24,8 @@ export default function Skills(props, index) {
               padding: "1em",
               margin: "2em",
               borderRadius: "4em",
+              boxShadow: '5px 10px rgba(136, 136, 136, 0.3)',
+              backgroundColor: '#F9F5F2'
             },
           }}
         >
@@ -31,7 +33,6 @@ export default function Skills(props, index) {
             <div className="skills_title">
               <h2>Frontend Development</h2>
             </div>
-            <hr />
 
             <div className="skills">
               <div className="icon_container">
@@ -99,7 +100,7 @@ export default function Skills(props, index) {
             <div className="skills_title">
               <h2>Wireframe, Design and Agile</h2>
             </div>
-            <hr />
+            
             <div className="skills">
               <div className="icon_container">
                 <Icon
@@ -139,7 +140,7 @@ export default function Skills(props, index) {
             <div className="skills_title">
               <h2>Development Tools and Architecture</h2>
             </div>
-            <hr />
+            
             <div className="skills">
               <div className="icon_container">
                 <Icon

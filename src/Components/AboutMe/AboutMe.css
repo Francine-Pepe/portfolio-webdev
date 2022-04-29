@@ -64,7 +64,7 @@ body {
 
 .round {
   position: relative;
-  border: 3px solid #e42770;
+  border: 3px solid #e4a700;
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -75,7 +75,7 @@ span {
   height: 3px;
   margin: 1px;
   width: 30px;
-  background: #e42770;
+  background: #e4a700;
   transition: 0.4s ease;
   z-index: 1;
 }

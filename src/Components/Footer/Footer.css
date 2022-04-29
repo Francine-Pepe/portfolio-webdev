@@ -14,3 +14,10 @@ small {
     font-family:'Raleway', sans-serif;
     font-size: 1rem;
 }
+
+.footer_container a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8em;
+    padding-top: 0.5em;
+}
