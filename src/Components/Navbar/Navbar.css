@@ -15,6 +15,7 @@
     text-decoration: none;
     color: inherit;
     font-family: 'Raleway', sans-serif;
+    color: #373737;
 }
 
 .navbar a:hover {
@@ -40,6 +41,39 @@
     background-color: #DCABA0;
     color: #fff;
 }
+
+.list li { 
+    position: relative; 
+    padding: 15px 0;
+  }
+  
+  .list li a {
+    color: #373737;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 15px;
+    position: relative;
+  }
+  
+  .list li a::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: #DCABA0;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  }
+  
+  .list li a:hover::after { 
+    width: 100%; 
+    left: 0; 
+  }
 
 #toggler,
 .navbar label {
