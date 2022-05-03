@@ -14,25 +14,12 @@
   flex-direction: column;
   align-self: flex-start;
   justify-content: center;
-  /* padding: 50em; */
-  /* background-color: rgba(255, 255, 255, 0.5); */
 }
 
 .cards_title h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
 }
-
-/* .opacity_projects {
-    background-color: rgba(255, 255, 255, 0.5);
-    height: fit-content;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 4em;
-} */
 
 * {
   box-sizing: border-box;
@@ -41,7 +28,6 @@
 body {
   width: 100%;
   height: auto;
-  /* background-color: #F8F8F8; */
 }
 .cards_container {
   width: 100vw;
@@ -51,15 +37,6 @@ body {
   align-items: center;
 }
 
-/* .card_box {
-    display: flex;
-    justify-content: center;
-    margin-bottom: -4rem;
-    margin-top: -4rem;
-    text-align: center;
-    width: 100vw;
-} */
-
 .cards {
   width: 21em;
   height: auto;
@@ -68,7 +45,6 @@ body {
 .cards_title,
 .cards_text {
   padding-top: 0;
-  /* padding-bottom: 20px; */
   text-align: center;
 }
 
@@ -226,5 +202,30 @@ body {
 
   .project_hr {
     width: 10em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .cards_title:hover div {
+    width: 10em;
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .project_hr {
+    width: 10em;
+  }
+
+  .cards {
+    width: 100vw;
+    height: auto;
+    padding: 1em;
+  }
+
+  .project_hr {
+    display: none;
   }
 }
