@@ -11,9 +11,19 @@ import easyPeasy from "./../../Images/easy_peasy-logo_transparent.png";
 import todolist from "./../../Images/checklist.png";
 import "./Projects.css";
 import ProjectTitle from "./ProjectTitle";
+import Sunnyside from "./../../Images/desktop-preview.jpg";
 
 export default function ProjectsCards(props, index) {
   const projects = [
+    {
+      id: "5",
+      name: "Sunnyside",
+      description: "Frontend challenge from frontendmentor.io",
+      image: Sunnyside,
+      github: "https://github.com/Francine-Pepe/sunnyside",
+      link: "https://francine-pepe.github.io/sunnyside/",
+      technologies: "HTML 5 |  CSS 3  |  React  |  JavaScript",
+    },
     {
       id: "4",
       name: "Todo List",
@@ -108,6 +118,10 @@ export default function ProjectsCards(props, index) {
                   color: "#fff",
                   backgroundColor: "transparent",
                 },
+
+                "&.MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img": {
+                  borderRadius: '14em',
+                }
               }}
             >
               {/* {show && (
