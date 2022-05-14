@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-webdev/static/css/main.1acf78a8.css",
-    "main.js": "/portfolio-webdev/static/js/main.15374bac.js",
+    "main.js": "/portfolio-webdev/static/js/main.f58833e1.js",
     "static/js/787.eed019d6.chunk.js": "/portfolio-webdev/static/js/787.eed019d6.chunk.js",
     "static/media/francine_medium.jpg": "/portfolio-webdev/static/media/francine_medium.4b3969cdcd676fde7e6c.jpg",
     "static/media/background_image_1.png": "/portfolio-webdev/static/media/background_image_1.a1a911b8ae188fbbfbc8.png",
     "static/media/background_image_-1.png": "/portfolio-webdev/static/media/background_image_-1.01e876b7bdab925a9672.png",
     "static/media/desktop-preview.jpg": "/portfolio-webdev/static/media/desktop-preview.f676005a14ca4aec61a0.jpg",
+    "static/media/desktop-preview-easybank.jpg": "/portfolio-webdev/static/media/desktop-preview-easybank.58d02af29da751c9b6a5.jpg",
     "static/media/Healthy Life-logos_transparent.png": "/portfolio-webdev/static/media/Healthy Life-logos_transparent.113477e4444e2c28a5b9.png",
     "static/media/easy_peasy-logo_transparent.png": "/portfolio-webdev/static/media/easy_peasy-logo_transparent.dc93898c3bfc45500e67.png",
     "static/media/BF_Logo.png": "/portfolio-webdev/static/media/BF_Logo.5236e789d01febee9669.png",
@@ -15,11 +16,11 @@
     "static/media/checklist.png": "/portfolio-webdev/static/media/checklist.1d02f9f5f8051ebe7f7a.png",
     "index.html": "/portfolio-webdev/index.html",
     "main.1acf78a8.css.map": "/portfolio-webdev/static/css/main.1acf78a8.css.map",
-    "main.15374bac.js.map": "/portfolio-webdev/static/js/main.15374bac.js.map",
+    "main.f58833e1.js.map": "/portfolio-webdev/static/js/main.f58833e1.js.map",
     "787.eed019d6.chunk.js.map": "/portfolio-webdev/static/js/787.eed019d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1acf78a8.css",
-    "static/js/main.15374bac.js"
+    "static/js/main.f58833e1.js"
   ]
 }
