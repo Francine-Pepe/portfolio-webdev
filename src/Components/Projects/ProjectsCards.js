@@ -12,9 +12,20 @@ import todolist from "./../../Images/checklist.png";
 import "./Projects.css";
 import ProjectTitle from "./ProjectTitle";
 import Sunnyside from "./../../Images/desktop-preview.jpg";
+import Easybank from "./../../Images/desktop-preview-easybank.jpg";
+
 
 export default function ProjectsCards(props, index) {
   const projects = [
+    {
+      id: "6",
+      name: "Easybank",
+      description: "Frontend challenge from frontendmentor.io",
+      image: Easybank,
+      github: "https://github.com/Francine-Pepe/easybank",
+      link: "https://francine-pepe.github.io/easybank/",
+      technologies: "HTML 5 |  CSS 3  |  React  |  JavaScript | Material UI",
+    },
     {
       id: "5",
       name: "Sunnyside",
