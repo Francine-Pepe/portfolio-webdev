@@ -13,10 +13,19 @@ import "./Projects.css";
 import ProjectTitle from "./ProjectTitle";
 import Sunnyside from "./../../Images/desktop-preview.jpg";
 import Easybank from "./../../Images/desktop-preview-easybank.jpg";
-
+import Bookmark from "./../../Images/desktop-design.jpg";
 
 export default function ProjectsCards(props, index) {
   const projects = [
+    {
+      id: "7",
+      name: "Bookmark",
+      description: "Frontend challenge from frontendmentor.io",
+      image: Bookmark,
+      github: "https://github.com/Francine-Pepe/bookmark",
+      link: "https://francine-pepe.github.io/bookmark/",
+      technologies: "HTML 5 |  CSS 3  |  React  |  JavaScript | Chakra UI",
+    },
     {
       id: "6",
       name: "Easybank",
