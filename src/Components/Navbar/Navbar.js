@@ -29,7 +29,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:3c0c0af4-7f63-31a4-9435-8d4c634876e1"
+                href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:ee659f8f-917a-3548-aa23-79244eecd930"
                 target="_blank"
                 rel="noreferrer noopener"
               >
