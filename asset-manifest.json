@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-webdev/static/css/main.1acf78a8.css",
-    "main.js": "/portfolio-webdev/static/js/main.8467a47d.js",
+    "main.css": "/portfolio-webdev/static/css/main.de04c0c4.css",
+    "main.js": "/portfolio-webdev/static/js/main.d6fbef0c.js",
     "static/js/787.eed019d6.chunk.js": "/portfolio-webdev/static/js/787.eed019d6.chunk.js",
     "static/media/francine_medium.jpg": "/portfolio-webdev/static/media/francine_medium.4b3969cdcd676fde7e6c.jpg",
     "static/media/background_image_1.png": "/portfolio-webdev/static/media/background_image_1.a1a911b8ae188fbbfbc8.png",
@@ -16,12 +16,12 @@
     "static/media/logo_fran_bigger.png": "/portfolio-webdev/static/media/logo_fran_bigger.0f352893318f33c91a5c.png",
     "static/media/checklist.png": "/portfolio-webdev/static/media/checklist.1d02f9f5f8051ebe7f7a.png",
     "index.html": "/portfolio-webdev/index.html",
-    "main.1acf78a8.css.map": "/portfolio-webdev/static/css/main.1acf78a8.css.map",
-    "main.8467a47d.js.map": "/portfolio-webdev/static/js/main.8467a47d.js.map",
+    "main.de04c0c4.css.map": "/portfolio-webdev/static/css/main.de04c0c4.css.map",
+    "main.d6fbef0c.js.map": "/portfolio-webdev/static/js/main.d6fbef0c.js.map",
     "787.eed019d6.chunk.js.map": "/portfolio-webdev/static/js/787.eed019d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1acf78a8.css",
-    "static/js/main.8467a47d.js"
+    "static/css/main.de04c0c4.css",
+    "static/js/main.d6fbef0c.js"
   ]
 }
