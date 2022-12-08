@@ -14,9 +14,19 @@ import ProjectTitle from "./ProjectTitle";
 import Sunnyside from "./../../Images/desktop-preview.jpg";
 import Easybank from "./../../Images/desktop-preview-easybank.jpg";
 import Bookmark from "./../../Images/desktop-design.jpg";
+import FreshFruit from "./../../Images/logo_FreshFruit_transparent_bg_small.png"
 
 export default function ProjectsCards(props, index) {
   const projects = [
+    {
+      id: "8",
+      name: "Fresh Fruits at your door",
+      description: "Project that simules a Fruit delivery service - main feature: filter by season and shopping cart",
+      image: FreshFruit,
+      github: "https://github.com/Francine-Pepe/fresh-fruit-at-your-door",
+      link: "https://francine-pepe.github.io/fresh-fruit-at-your-door",
+      technologies: "HTML 5 |  CSS 3  |  React  |  JavaScript | Chakra UI",
+    },
     {
       id: "7",
       name: "Bookmark",
