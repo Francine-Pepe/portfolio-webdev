@@ -14,18 +14,19 @@ import ProjectTitle from "./ProjectTitle";
 import Sunnyside from "./../../Images/desktop-preview.jpg";
 import Easybank from "./../../Images/desktop-preview-easybank.jpg";
 import Bookmark from "./../../Images/desktop-design.jpg";
-import FreshFruit from "./../../Images/logo_FreshFruit_transparent_bg_small.png"
+import FreshFruit from "./../../Images/logo_FreshFruit_transparent_bg_small.png";
 
 export default function ProjectsCards(props, index) {
   const projects = [
     {
       id: "8",
       name: "Fresh Fruits at your door",
-      description: "Project that simules a Fruit delivery service - main feature: filter by season and shopping cart",
+      description:
+        "Project that simules a Fruit delivery service - main feature: filter by season and shopping cart",
       image: FreshFruit,
       github: "https://github.com/Francine-Pepe/fresh-fruit-at-your-door",
       link: "https://francine-pepe.github.io/fresh-fruit-at-your-door",
-      technologies: "HTML 5 |  CSS 3  |  React  |  JavaScript | Chakra UI",
+      technologies: "HTML 5 |  CSS 3  |  React  |  JavaScript | Chakra UI | Express | API | Adobe XD",
     },
     {
       id: "7",
@@ -130,8 +131,8 @@ export default function ProjectsCards(props, index) {
               borderRadius: "4em",
               padding: "2em",
               border: "none",
-              backgroundColor: '#F9F5F2',
-              boxShadow: '5px 10px rgba(136, 136, 136, 0.3)'
+              backgroundColor: "#F9F5F2",
+              boxShadow: "5px 10px rgba(136, 136, 136, 0.3)",
             }}
           >
             <CardActionArea
@@ -150,8 +151,8 @@ export default function ProjectsCards(props, index) {
                 },
 
                 "&.MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img": {
-                  borderRadius: '14em',
-                }
+                  borderRadius: "14em",
+                },
               }}
             >
               {/* {show && (
