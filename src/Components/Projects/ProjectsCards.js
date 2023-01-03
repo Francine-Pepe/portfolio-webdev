@@ -5,27 +5,28 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, CardActions } from "@mui/material";
 import bespoke from "./../../Images/BF_Logo.png";
-import photopedia from "./../../Images/photopedia_logo_transparent.png";
-import healthyLife from "./../../Images/Healthy Life-logos_transparent.png";
-import easyPeasy from "./../../Images/easy_peasy-logo_transparent.png";
+// import photopedia from "./../../Images/photopedia_logo_transparent.png";
+// import healthyLife from "./../../Images/Healthy Life-logos_transparent.png";
+// import easyPeasy from "./../../Images/easy_peasy-logo_transparent.png";
 import todolist from "./../../Images/checklist.png";
 import "./Projects.css";
 import ProjectTitle from "./ProjectTitle";
 import Sunnyside from "./../../Images/desktop-preview.jpg";
 import Easybank from "./../../Images/desktop-preview-easybank.jpg";
 import Bookmark from "./../../Images/desktop-design.jpg";
-import FreshFruit from "./../../Images/logo_FreshFruit_transparent_bg_small.png"
+import FreshFruit from "./../../Images/logo_FreshFruit_transparent_bg_small.png";
 
 export default function ProjectsCards(props, index) {
   const projects = [
     {
       id: "8",
       name: "Fresh Fruits at your door",
-      description: "Project that simules a Fruit delivery service - main feature: filter by season and shopping cart",
+      description:
+        "Project that simules a Fruit delivery service - main feature: filter by season and shopping cart",
       image: FreshFruit,
       github: "https://github.com/Francine-Pepe/fresh-fruit-at-your-door",
       link: "https://francine-pepe.github.io/fresh-fruit-at-your-door",
-      technologies: "HTML 5 |  CSS 3  |  React  |  JavaScript | Chakra UI",
+      technologies: "HTML 5 |  CSS 3  |  React  |  JavaScript | Chakra UI | Express | API | Adobe XD",
     },
     {
       id: "7",
@@ -74,35 +75,35 @@ export default function ProjectsCards(props, index) {
       technologies:
         "React JS  |  MongoDB  |  Node JS  |  Express  |  Material UI  |  React Bootstrap  |  Adobe XD",
     },
-    {
-      id: "1",
-      name: "Photopedia",
-      description: "Website made from photografers for photografers",
-      image: photopedia,
-      github: "https://github.com/TheCodingBrie/Photopedia",
-      link: "",
-      technologies:
-        "React JS  |  MongoDB  |  Node JS  |  Express  |  Material UI  |  React Bootstrap  |  Adobe XD",
-    },
-    {
-      id: "2",
-      name: "Healthy Life",
-      description:
-        "A place that brings together everything for a good and healthy life",
-      image: healthyLife,
-      github: "https://github.com/jennyy89/healthylife",
-      link: "",
-      technologies: "React JS |  React Bootstrap  |  Contentful  |  Adobe XD",
-    },
-    {
-      id: "3",
-      name: "Easy Peasy",
-      description: "Food blog with all kinds of easy food",
-      image: easyPeasy,
-      github: "https://github.com/garciamarin/Easy-Peasy",
-      link: "",
-      technologies: "HTML 5 |  CSS 3  |  Bootstrap  |  Adobe XD",
-    },
+    // {
+    //   id: "1",
+    //   name: "Photopedia",
+    //   description: "Website made from photografers for photografers",
+    //   image: photopedia,
+    //   github: "https://github.com/TheCodingBrie/Photopedia",
+    //   link: "",
+    //   technologies:
+    //     "React JS  |  MongoDB  |  Node JS  |  Express  |  Material UI  |  React Bootstrap  |  Adobe XD",
+    // },
+    // {
+    //   id: "2",
+    //   name: "Healthy Life",
+    //   description:
+    //     "A place that brings together everything for a good and healthy life",
+    //   image: healthyLife,
+    //   github: "https://github.com/jennyy89/healthylife",
+    //   link: "",
+    //   technologies: "React JS |  React Bootstrap  |  Contentful  |  Adobe XD",
+    // },
+    // {
+    //   id: "3",
+    //   name: "Easy Peasy",
+    //   description: "Food blog with all kinds of easy food",
+    //   image: easyPeasy,
+    //   github: "https://github.com/garciamarin/Easy-Peasy",
+    //   link: "",
+    //   technologies: "HTML 5 |  CSS 3  |  Bootstrap  |  Adobe XD",
+    // },
   ];
 
   return (
@@ -130,8 +131,8 @@ export default function ProjectsCards(props, index) {
               borderRadius: "4em",
               padding: "2em",
               border: "none",
-              backgroundColor: '#F9F5F2',
-              boxShadow: '5px 10px rgba(136, 136, 136, 0.3)'
+              backgroundColor: "#F9F5F2",
+              boxShadow: "5px 10px rgba(136, 136, 136, 0.3)",
             }}
           >
             <CardActionArea
@@ -150,8 +151,8 @@ export default function ProjectsCards(props, index) {
                 },
 
                 "&.MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img": {
-                  borderRadius: '14em',
-                }
+                  borderRadius: "14em",
+                },
               }}
             >
               {/* {show && (
