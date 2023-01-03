@@ -1,27 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-webdev/static/css/main.de04c0c4.css",
-    "main.js": "/portfolio-webdev/static/js/main.f73221d2.js",
-    "static/js/787.eed019d6.chunk.js": "/portfolio-webdev/static/js/787.eed019d6.chunk.js",
-    "static/media/francine_medium.jpg": "/portfolio-webdev/static/media/francine_medium.4b3969cdcd676fde7e6c.jpg",
-    "static/media/background_image_1.png": "/portfolio-webdev/static/media/background_image_1.a1a911b8ae188fbbfbc8.png",
-    "static/media/background_image_-1.png": "/portfolio-webdev/static/media/background_image_-1.01e876b7bdab925a9672.png",
-    "static/media/desktop-design.jpg": "/portfolio-webdev/static/media/desktop-design.1edca70eadedeaf334c5.jpg",
-    "static/media/desktop-preview.jpg": "/portfolio-webdev/static/media/desktop-preview.f676005a14ca4aec61a0.jpg",
-    "static/media/desktop-preview-easybank.jpg": "/portfolio-webdev/static/media/desktop-preview-easybank.58d02af29da751c9b6a5.jpg",
-    "static/media/Healthy Life-logos_transparent.png": "/portfolio-webdev/static/media/Healthy Life-logos_transparent.113477e4444e2c28a5b9.png",
-    "static/media/easy_peasy-logo_transparent.png": "/portfolio-webdev/static/media/easy_peasy-logo_transparent.dc93898c3bfc45500e67.png",
-    "static/media/BF_Logo.png": "/portfolio-webdev/static/media/BF_Logo.5236e789d01febee9669.png",
-    "static/media/photopedia_logo_transparent.png": "/portfolio-webdev/static/media/photopedia_logo_transparent.6bb6b296890e641bc512.png",
-    "static/media/logo_fran_bigger.png": "/portfolio-webdev/static/media/logo_fran_bigger.0f352893318f33c91a5c.png",
-    "static/media/checklist.png": "/portfolio-webdev/static/media/checklist.1d02f9f5f8051ebe7f7a.png",
-    "index.html": "/portfolio-webdev/index.html",
-    "main.de04c0c4.css.map": "/portfolio-webdev/static/css/main.de04c0c4.css.map",
-    "main.f73221d2.js.map": "/portfolio-webdev/static/js/main.f73221d2.js.map",
-    "787.eed019d6.chunk.js.map": "/portfolio-webdev/static/js/787.eed019d6.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.57840147.js",
+    "static/js/787.eed019d6.chunk.js": "/static/js/787.eed019d6.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.57840147.js.map": "/static/js/main.57840147.js.map",
+    "787.eed019d6.chunk.js.map": "/static/js/787.eed019d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de04c0c4.css",
-    "static/js/main.f73221d2.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.57840147.js"
   ]
 }
