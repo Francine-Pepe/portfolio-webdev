@@ -5,9 +5,9 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, CardActions } from "@mui/material";
 import bespoke from "./../../Images/BF_Logo.png";
-import photopedia from "./../../Images/photopedia_logo_transparent.png";
-import healthyLife from "./../../Images/Healthy Life-logos_transparent.png";
-import easyPeasy from "./../../Images/easy_peasy-logo_transparent.png";
+// import photopedia from "./../../Images/photopedia_logo_transparent.png";
+// import healthyLife from "./../../Images/Healthy Life-logos_transparent.png";
+// import easyPeasy from "./../../Images/easy_peasy-logo_transparent.png";
 import todolist from "./../../Images/checklist.png";
 import "./Projects.css";
 import ProjectTitle from "./ProjectTitle";
@@ -75,35 +75,35 @@ export default function ProjectsCards(props, index) {
       technologies:
         "React JS  |  MongoDB  |  Node JS  |  Express  |  Material UI  |  React Bootstrap  |  Adobe XD",
     },
-    {
-      id: "1",
-      name: "Photopedia",
-      description: "Website made from photografers for photografers",
-      image: photopedia,
-      github: "https://github.com/TheCodingBrie/Photopedia",
-      link: "",
-      technologies:
-        "React JS  |  MongoDB  |  Node JS  |  Express  |  Material UI  |  React Bootstrap  |  Adobe XD",
-    },
-    {
-      id: "2",
-      name: "Healthy Life",
-      description:
-        "A place that brings together everything for a good and healthy life",
-      image: healthyLife,
-      github: "https://github.com/jennyy89/healthylife",
-      link: "",
-      technologies: "React JS |  React Bootstrap  |  Contentful  |  Adobe XD",
-    },
-    {
-      id: "3",
-      name: "Easy Peasy",
-      description: "Food blog with all kinds of easy food",
-      image: easyPeasy,
-      github: "https://github.com/garciamarin/Easy-Peasy",
-      link: "",
-      technologies: "HTML 5 |  CSS 3  |  Bootstrap  |  Adobe XD",
-    },
+    // {
+    //   id: "1",
+    //   name: "Photopedia",
+    //   description: "Website made from photografers for photografers",
+    //   image: photopedia,
+    //   github: "https://github.com/TheCodingBrie/Photopedia",
+    //   link: "",
+    //   technologies:
+    //     "React JS  |  MongoDB  |  Node JS  |  Express  |  Material UI  |  React Bootstrap  |  Adobe XD",
+    // },
+    // {
+    //   id: "2",
+    //   name: "Healthy Life",
+    //   description:
+    //     "A place that brings together everything for a good and healthy life",
+    //   image: healthyLife,
+    //   github: "https://github.com/jennyy89/healthylife",
+    //   link: "",
+    //   technologies: "React JS |  React Bootstrap  |  Contentful  |  Adobe XD",
+    // },
+    // {
+    //   id: "3",
+    //   name: "Easy Peasy",
+    //   description: "Food blog with all kinds of easy food",
+    //   image: easyPeasy,
+    //   github: "https://github.com/garciamarin/Easy-Peasy",
+    //   link: "",
+    //   technologies: "HTML 5 |  CSS 3  |  Bootstrap  |  Adobe XD",
+    // },
   ];
 
   return (
