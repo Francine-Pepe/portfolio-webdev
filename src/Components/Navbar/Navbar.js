@@ -32,6 +32,7 @@ export default function Navbar() {
                 href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c4e972e9-8e9f-35bb-b9de-1bef646f3c91"
                 target="_blank"
                 rel="noreferrer noopener"
+                download
               >
                 Resumé
               </a>
