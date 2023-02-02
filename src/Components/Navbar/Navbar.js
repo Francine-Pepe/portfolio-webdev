@@ -29,13 +29,11 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                // href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c4e972e9-8e9f-35bb-b9de-1bef646f3c91"
-                href="/"
+                href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c4e972e9-8e9f-35bb-b9de-1bef646f3c91"                
                 target="_blank"
-                // rel="noreferrer noopener"
+                rel="noreferrer noopener"
                 download
               >
-                <embed src="./Files/Francine_Pêpe_CV.pdf" type="application/pdf" width="100%" height="100%"></embed>
                 Resumé
               </a>
             </li>
