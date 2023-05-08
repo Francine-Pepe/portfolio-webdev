@@ -14,10 +14,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_5gpnfnk",
+        "template_sgmp2xj",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "user_YeUwC6WQsK1xiMGVBrKzC"
       )
       .then(
         (result) => {
